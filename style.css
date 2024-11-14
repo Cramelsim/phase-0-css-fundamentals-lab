@@ -33,7 +33,7 @@ text-align:center;
 margin:20px auto;
 padding 10px:
 }
-div{
+/*div{
 float:left;
 text-align: center;
 disply:flex;
@@ -42,4 +42,28 @@ margin:auto;
 width:25%;
 background-color:red;
 justify-content:space-around;
+}*/
+#details{
+display:flex;
+justify-content:space-around;
+background-color: red;
+padding:20px 0;
+text-align:center;
+}
+#details div {
+display:flex;
+flex-direction:column;
+align-items:center;
+width:20%;
+}
+#details h3{
+margin:0;
+padding-bottom:10px;
+font-size:20px;
+font-weight:bold;
+}
+#details p, #details a{
+margin:0;
+padding:5px;
+font-size:16px;
 }

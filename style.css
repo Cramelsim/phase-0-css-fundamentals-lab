@@ -1,5 +1,45 @@
+h1 {
+  color: red;
+  text-align:center;
+}
+
+
 body {
   width: 100%;
   height: 100%;
   margin: 0;
+}
+nav{
+text-align:center;
+text-color:black;
+
+}
+nav a{
+padding:10px;
+background-color: grey;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+figcaption{
+font-size:20;
+text-align:center;
+}
+p{
+width:800px;
+text-align:center;
+margin:20px auto;
+padding 10px:
+}
+div{
+float:left;
+text-align: center;
+disply:flex;
+flex-direction:column;
+margin:auto;
+width:25%;
+background-color:red;
+justify-content:space-around;
 }
